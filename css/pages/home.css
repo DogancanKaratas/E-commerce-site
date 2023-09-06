@@ -5,6 +5,8 @@
 .section-title h2 {
   font-size: 32px;
   font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 4px;
 }
 
 /* !categories start */
@@ -36,7 +38,7 @@
 /* !products end */
 
 /* ! campaign start */
-.campaigns .campaigns-wrapper{
+.campaigns .campaigns-wrapper {
   display: flex;
   gap: 30px;
   margin: 30px 0;
@@ -46,86 +48,79 @@
 /* ! campaign end */
 
 /* !blog-start */
-.blogs{
+.blogs {
   margin-bottom: 30px;
 }
-.blogs .blog-list{
+.blogs .blog-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
-
 
 /* !blog-end */
 
 /* !brands-start */
 
-.brands{
+.brands {
   margin: 40px 0;
 }
-.brand-list{
+.brand-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   border: 1px solid #dee0ea;
   padding: 30px 5px;
-
 }
-.brand-list .brand-item{
+.brand-list .brand-item {
   opacity: 0.4;
-  transition: .2s ease opacity;
+  transition: 0.2s ease opacity;
 }
-.brand-list .brand-item:hover{
+.brand-list .brand-item:hover {
   opacity: 1;
 }
 
 /* !brands-end */
 
 /* !pociy start */
-.policy{
+.policy {
   border: 1px solid #dee0ea;
-  margin-top: 40px ;
+  margin-top: 40px;
   align-items: center;
-  
 }
-.policy .policy-list{
+.policy .policy-list {
   display: flex;
   padding: 25px 0;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
-.policy .policy-list .policy-item{
+.policy .policy-list .policy-item {
   display: flex;
   align-items: center;
   column-gap: 10px;
-  
 }
 
-.policy .policy-item i{
+.policy .policy-item i {
   display: flex;
   font-size: 50px;
 }
-.policy .policy-item .policy-texts{
+.policy .policy-item .policy-texts {
   display: flex;
   flex-direction: column;
 }
-.policy .policy-item .policy-texts strong{
- font-weight: 600;
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
 }
-.policy .policy-item .policy-texts span{
- font-size: 12px;
+.policy .policy-item .policy-texts span {
+  font-size: 12px;
 }
 /* !pociy end */
 
 /* !responsive */
-@media (max-width:768px) {
-  .blogs .blog-list{
+@media (max-width: 768px) {
+  .blogs .blog-list {
     grid-template-columns: 1fr;
   }
-  .policy .policy-list{
+  .policy .policy-list {
     flex-direction: column;
-    
   }
 }
-
