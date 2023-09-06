@@ -139,6 +139,7 @@
   font-size: 14px;
   cursor: pointer;
   transition: 0.2s ease all;
+  flex: 1;
 }
 
 .site-main .values .values-list span.active {
